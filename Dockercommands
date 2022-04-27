@@ -78,7 +78,13 @@ To remove a container
 ----------------------
 docker rm container-id
 
+vi Dockerfile 
 
+FROM ubuntu:latest
+MAINTAINER becomedevops99@gmail.com
+RUN apt update
+RUN apt install git -y
+RUN apt install nginx -y
 
 
 
